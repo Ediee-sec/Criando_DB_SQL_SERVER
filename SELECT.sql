@@ -1,0 +1,6 @@
+SELECT * FROM Funcionarios
+SELECT * FROM Cargos
+
+SELECT *
+FROM Funcionarios F
+INNER JOIN Cargos C WITH (NOLOCK) ON F.CODCAR = C.CODCAR
